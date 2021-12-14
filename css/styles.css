@@ -249,11 +249,17 @@ img {
 }
 
 .work_container > div {
+    cursor: pointer;
     margin-top: 1rem;
 }
 
 .work_container {
     row-gap: 2rem;
+}
+
+.work_container a {
+    text-align: -webkit-center;
+    align-self: self-end;
 }
 
 .work_img {
@@ -477,7 +483,7 @@ img {
     }
 
     .work_container{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2,1fr);
         column-gap: 2rem;
     }
